@@ -30,6 +30,7 @@ html, body {
   width: 0px;
   position: relative;
   margin: 50px auto;
+  justify-content: center;
   left: -30px;
   top: -800px;
 }
@@ -200,7 +201,7 @@ html, body {
 
 .pageLoading {
   position: fixed;
-  background-color: #0C4475;
+  background-color: #21b76c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,24 +210,24 @@ html, body {
 }
 @keyframes jumping {
   0% {
-    top: 500px;
+    top: 480px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   }
   100% {
-    top: 460px;
+    top: 440px;
     box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.5);
   }
 }
 @keyframes jprt {
   0% {
-    top: 500px;
+    top: 480px;
   }
   50% {
-    top: 480px;
+    top: 460px;
     transform: rotate(180deg);
   }
   100% {
-    top: 460px;
+    top: 440px;
     transform: rotate(360deg);
   }
 }
@@ -286,11 +287,10 @@ html, body {
 }
 
 .loading {
+  justify-content: center;
   width: 250px;
   height: 8px;
   position: absolute;
-  top: 550px;
-  left: 120px;
   background-color: #fff;
   border-radius: 4px;
   margin: 20px;
