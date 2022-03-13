@@ -402,6 +402,7 @@ h3 {
   flex-direction: column;
 }
 .btn {
+  z-index: 5;
   cursor: pointer;
   color: red;
   height: 50px;
