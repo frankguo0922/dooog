@@ -10,6 +10,7 @@ $(".bar").css("width",persent+"%")
 persent+=1
 if (persent>100){
 $(".pageLoading").addClass("complete")
+$(".page").addClass("complete")
 clearInterval(timer)
 setTimeout(eatcount,3000)}
 },30)

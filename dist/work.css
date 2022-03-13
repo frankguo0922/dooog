@@ -336,8 +336,8 @@ h3 {
 .page {
   transition: 0.5s 0.5s;
   opacity: 0;
-  width: 500px;
-  height: 600px;
+  width: 600px;
+  height: 700px;
   background-color: #e0ffe9;
 }
 .page.complete {
@@ -372,7 +372,7 @@ h3 {
   background-color: #fff;
 }
 .page .list li {
-  margin-left: 150px;
+  margin-left: 250px;
   display: flex;
   justify-content: between;
   margin-top: 10px;
@@ -401,15 +401,16 @@ h3 {
   align-items: center;
   flex-direction: column;
 }
-.b .btn {
+.btn {
+  cursor: pointer;
+  color: red;
   height: 50px;
   width: 80px;
   background-color: #87ffdf;
   border: none;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
 }
-.b .btn:hover {
+.btn:hover {
   background-color: #00bbff;
 }
 .b .ph2 {
